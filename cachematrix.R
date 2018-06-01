@@ -44,5 +44,5 @@ cacheSolve <- function(m, ...) {
         m$setinverse(inversem)
         
         # return the object m that conatins the matrix and the inverse
-        invisible(m)
+        inversem
 }
